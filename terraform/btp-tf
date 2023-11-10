@@ -1,0 +1,13 @@
+terraform {
+  required_providers {
+    btp = {
+      source  = "SAP/btp"
+      version = "0.6.0-beta1"
+    }
+  }
+}
+
+# Configure the BTP Provider
+provider "btp" {
+  globalaccount = "fd8d3aba-7f80-412d-9812-0c00c8e3c47f"
+}
